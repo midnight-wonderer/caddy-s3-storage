@@ -1,4 +1,6 @@
-module github.com/midnight-wonderer/caddy-s3-storage
+module github.com/ss098/certmagic-s3
+
+replace github.com/ss098/certmagic-s3 => github.com/midnight-wonderer/caddy-s3-storage midnight-wonderer-quick-patch-1
 
 go 1.16
 
