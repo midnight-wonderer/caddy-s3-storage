@@ -1,4 +1,4 @@
-module github.com/ss098/certmagic-s3
+module github.com/midnight-wonderer/caddy-s3-storage
 
 go 1.16
 
