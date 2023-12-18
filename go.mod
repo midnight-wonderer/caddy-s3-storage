@@ -1,7 +1,5 @@
 module github.com/ss098/certmagic-s3
 
-replace github.com/ss098/certmagic-s3 => github.com/midnight-wonderer/caddy-s3-storage master
-
 go 1.16
 
 require (
@@ -10,3 +8,5 @@ require (
 	github.com/minio/minio-go/v7 v7.0.27
 	go.uber.org/zap v1.21.0
 )
+
+replace github.com/ss098/certmagic-s3 => github.com/midnight-wonderer/caddy-s3-storage master
